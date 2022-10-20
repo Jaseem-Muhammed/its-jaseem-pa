@@ -1,0 +1,203 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!DOCTYPE html>
+                <html lang="en">
+                    
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+                    <title> form </title>
+
+                </head>
+                <body>
+                    <style>
+                        body{
+                            background-color: rgb(113, 18, 74);
+                        }
+                        .container{
+                           
+                            text-align: center;
+                          
+
+                            
+                            
+                         }
+                        .row{
+                            
+                        }
+                        .sheet{
+                            margin-top: 20%;
+                            background-color: rgb(122, 37, 85);
+                            padding: 25px;
+                            
+
+                            
+                        }
+                       .sheet input{
+                        border-radius: 5px;
+                        border: none;
+                       }
+        
+
+
+
+
+                    </style>
+
+                    
+                     
+                 <div class="container" > 
+                   
+                    <div class="row  " >
+                        <div class="col-sm-12 " >
+                           
+
+                            <form action="https://script.google.com/macros/s/AKfycbxW8CfH-bS5N2YcFlkc_VoglMeIZ9gMRhEDC_AhqVZOK2y87Q_VPuxZoeO5RUyXHltK/exec" method="post" class="sheet" id="signup-form">
+                                <label for=""> Name : </label>
+                            <input name="fname" type="text" placeholder="user name">    <br><br>
+
+                            <label for=""> Email : </label>
+                            <input name="ename" type="text" placeholder=" email id ">   <br><br>
+
+                           
+                            <label  for=""> Message : </label>
+                            <textarea name=" eMessage" type="text" placeholder=" message "></textarea>   <br><br>
+
+                            <input type="submit" >
+
+                           
+
+
+
+
+
+                          </form>
+                        
+
+                        </div>
+                    </div>
+
+                 </div>
+             
+                 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+      
+<script>
+
+                     $(document).ready(function(){
+                     $("#signup-form").validate({
+                       rules:{
+              fname:{
+            required:true,
+            minlength:5 
+
+        },
+        ename:{
+            required:true,
+            email : true 
+
+        }, 
+        eMessage:{
+            required:true,
+             
+
+        }
+
+        
+        }
+    })
+})
+
+     
+</script>
+
+
+                                     
+                </body>
+                </html>
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
